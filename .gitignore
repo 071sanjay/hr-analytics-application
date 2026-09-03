@@ -1,1 +1,17 @@
-.vscode
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code directory
+.vscode/
+
+# Environment files
+venv/
+.venv/
+env/
+
+# OS metadata
+.DS_Store
+Thumbs.db
