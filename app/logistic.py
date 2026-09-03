@@ -11,7 +11,7 @@ st.subheader('Using Logistic Regression')
 
 features, scaler, model, Y_pred, cr, cm = logistic_attrition_predict()
 
-API_URL = 'http://127.0.0.1:8000/predict-retention-logistic'
+API_URL = 'https://hr-analytics-application.onrender.com/predict-retention-logistic'
 
 st.sidebar.header("Employee Input Features")
 
