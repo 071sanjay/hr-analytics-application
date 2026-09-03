@@ -1,7 +1,7 @@
 import streamlit as st
 
 def home():
-    st.Page('Home.py', title='Home')
+    st.Page('home.py', title='Home')
     st.header('Home Page')
 
 pages = {
