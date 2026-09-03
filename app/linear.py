@@ -86,5 +86,3 @@ col1, col2, col3 = st.columns(3)
 col1.metric("R² Score", f"{r2:.2f}")
 col2.metric("Mean Absolute Error", f"${mae:,.2f}")
 col3.metric("Root Mean Sq Error", f"${rmse:,.2f}")
-
-

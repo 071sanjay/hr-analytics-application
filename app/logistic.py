@@ -81,24 +81,6 @@ Tenure_years = st.sidebar.slider("Tenure (Years)", 8, 20, 13, step=1)
 
 Age = st.sidebar.slider("Age", 34, 75, 45, step=1)
 
-# if st.button('Predict Attrition'):
-#     input_data = pd.DataFrame([[
-#         Salary,EmpSatisfaction,EngagementSurvey, Absences,
-#         DaysLateLast30, Tenure_years, Age, SpecialProjectsCount
-#     ]], columns = features)
-
-#     # Data scaling
-#     input_scaler = scaler.transform(input_data)
-
-#     # Predict using model
-#     prediction = model.predict(input_scaler)[0]
-
-#     # Show answer
-#     if prediction == 0:
-#         st.write('likely to return')
-#     else:
-#         st.write('likely not to return')
-
 if st.button('Predict Attrition'):
     payload = {
         'Salary':Salary,
@@ -141,5 +123,3 @@ plt.ylabel("Actual Label")
 plt.xlabel("Predicted Label")
 plt.title("Employee Attrition Confusion Matrix")
 st.pyplot(fig)
-
-

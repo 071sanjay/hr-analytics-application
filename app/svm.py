@@ -84,6 +84,3 @@ plt.xlabel('Predicted Risk')
 plt.ylabel('Actual Risk')
 plt.title('SVC: High Risk vs. Low Risk Employees')
 st.pyplot(fig)
-
-
-

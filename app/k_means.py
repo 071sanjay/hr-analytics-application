@@ -74,4 +74,3 @@ if st.button('Workforce Analysis'):
     clusters = model.predict(input_scaler)[0]
 
     st.success(f"Assigned Cluster: {clusters}")
-

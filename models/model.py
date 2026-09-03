@@ -134,10 +134,3 @@ def kmeans_workforce_clusters():
     sc = silhouette_score(X_scale, labels=clusters)
 
     return X, scaler, model, clusters, sc
-
-
-
-
-
-
-
