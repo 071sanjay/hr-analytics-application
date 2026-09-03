@@ -24,14 +24,3 @@ def predict_attrition(data:HrSchema):
         'Prediction Status': int(prediction),
         'Status': 'Likely to return' if prediction == 0 else 'Unlikely to return'
     }
-
-
-
-
-
-
-
-
-
-
-
